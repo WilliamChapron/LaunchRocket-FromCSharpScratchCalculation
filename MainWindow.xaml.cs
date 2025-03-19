@@ -73,8 +73,8 @@ namespace TpMath3d
 
 
             applicationPointsRotation = new double[,] { { -R,0, 0.0 }, { R, 0, 0.0 } };
-            forcesRotation = new double[,] { { 0.0, 0.0, 1.0 }, { 0.0, 0.0, 1.1 } };
-            sumForceTranslation = new double[] { 0.0, 0.0, 13.0/10000 };
+            forcesRotation = new double[,] { { 0.0, 0.0, 1.0 }, { 0.0, 0.0, 3 } };
+            sumForceTranslation = new double[] { 0.0, 0.0, 13.0/1000 };
 
             InitializeComponent();
 
